@@ -21,7 +21,7 @@ main{
 	margin: 0 auto;
     }
     .tab-menu{
-        padding-top: 100px;
+        padding-top: 80px;
     }
     .vektor{
         margin-top: 30px;
@@ -31,6 +31,9 @@ main{
             position: relative;
         }
         .vektor-image1{
+                position: relative;
+    left: 20px;
+}
         }
     }
 
@@ -55,11 +58,13 @@ text-align: center;
 }
 
 .tab button:hover {
-background: #18CFAB;
+
+
+ border: 0.5px solid #18CFAB;
 }
 
 .tab button.active {
-background: #18CFAB;
+background:#18CFAB ;
 
 }
 
@@ -88,6 +93,5 @@ background: #18CFAB;
         line-height: 19px;
         max-height: 136px;
     }
-}
 }
 }

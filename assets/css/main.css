@@ -22,7 +22,7 @@ main #service .container {
   margin: 0 auto;
 }
 main #service .tab-menu {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 main #service .vektor {
   margin-top: 30px;
@@ -32,11 +32,15 @@ main #service .vektor img {
   margin: 0 auto;
   position: relative;
 }
-main #service .tab {
+main #service .vektor .vektor-image1 {
+  position: relative;
+  left: 20px;
+}
+main .tab {
   overflow: hidden;
   background-color: white;
 }
-main #service .tab button {
+main .tab button {
   background: inherit;
   border: 0.5px solid #ccc;
   float: left;
@@ -49,28 +53,28 @@ main #service .tab button {
   letter-spacing: 0px;
   text-align: center;
 }
-main #service .tab button:hover {
+main .tab button:hover {
+  border: 0.5px solid #18CFAB;
+}
+main .tab button.active {
   background: #18CFAB;
 }
-main #service .tab button.active {
-  background: #18CFAB;
-}
-main #service .tabcontent {
+main .tabcontent {
   display: none;
   margin-top: 30px;
   border-top: none;
 }
-main #service .fidtcontent {
+main .fidtcontent {
   display: block;
 }
-main #service .tabcontent p {
+main .tabcontent p {
   font-weight: 300;
   font-size: 13.64px;
 }
-main #service .tab-content-summary {
+main .tab-content-summary {
   display: flex;
 }
-main #service .tab-content-summary p {
+main .tab-content-summary p {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10px;
