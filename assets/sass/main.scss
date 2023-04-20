@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+ padding: 60px 100px 60px 100px;
+ font-family: 'Montserrat', sans-serif;
+
+#service{
+    padding-left: 100px;
+    padding-right: 100px;
+    h2{
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    .container{
+	width: 500px;
+	margin: 0 auto;
+    }
+    .tab-menu{
+        padding-top: 100px;
+    }
+    .vektor{
+        margin-top: 30px;
+        img{
+            display: block;
+            margin: 0 auto;
+            position: relative;
+        }
+        .vektor-image1{
+        }
+    }
+
+.tab {
+  overflow: hidden;
+  background-color: white;
+}
+
+.tab button {
+ background:inherit;
+ border: 0.5px solid #ccc ;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  transition: 0.3s;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.tab button:hover {
+background: #18CFAB;
+}
+
+.tab button.active {
+background: #18CFAB;
+
+}
+
+.tabcontent {
+  display: none;
+  margin-top: 30px;
+  border-top: none;
+  
+}
+.fidtcontent{
+     display: block;
+}
+
+.tabcontent p{
+    font-weight: 300;
+    font-size: 13.64px;
+
+}
+.tab-content-summary{
+    display: flex;
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:10px ;
+        font-size: 13px;
+        line-height: 19px;
+        max-height: 136px;
+    }
+}
+}
+}
